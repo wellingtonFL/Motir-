@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 4rem;
+    width: 100%;
+    background-color: #FFE880;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+
+}
+
+
+.logo{
+    padding:3vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 3rem;
+    
+}
+
+
+body {
+    font-family: 'Gotham Rounded', sans-serif;
+    background-color: #f4f4f4;
+    font-family: 'Gotham Rounded', sans-serif;
+    background: url(/img/background.png); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o corpo */
+    background-position: center; /* Centralizar a imagem */
+   
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    max-width: 400px;
+   margin-top: 6rem;
+   margin-bottom: 5rem;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+   
+    
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 10%;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+  .error {
+    color: red;
+    margin-top: -8px;
+    margin-bottom: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #125b50;
+    color: white;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #125b50;
+
+  }
+
+  /* Adicionando estilo para os rótulos de gênero */
+  .genero-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Centraliza verticalmente */
+    margin-bottom: 16px;
+  }
+
+  .genero-labels label {
+    display: flex;
+    align-items: center;
+  }
+
+  .genero-labels input {
+    margin-right: 8px;
+  }
+  .voltar {
+position: absolute;
+margin: 0 !important;
+top: 106px;
+left: 28px;
+width: 60px;
+height: 60px;
+z-index: 15;
+}
+
+  .link{
+    text-decoration: none;
+    color: #ff8215}
+
+    h1{
+      color: #ff8215;
+      text-align: center;
+    }
+
+    /*Entrar*/
+
+
+
+/* Estilo para a checkbox */
+input[type="checkbox"] {
+  margin-right: 2px; /* Ajuste o espaçamento à direita conforme necessário */
+
+}
+
+.cadastro,a{
+  text-decoration: none;
+  color: #ff8215;
+}
+

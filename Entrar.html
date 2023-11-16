@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+          
+    <nav>
+        <div class="logo">
+            <img src="img/Motirõ.png" alt="Logo Image">
+        </div>
+    </nav>
+    
+
+    <section>   
+      
+        
+        <form id="cadastroForm">
+            <h1>Entrar</h1> 
+            <p class="texto entrar">Digite seu e-mail e senha para entar</p>
+            <p  >Novo usuário?<a href="Cadastro.html" class="cadastro">Cadastre-se</a></p>
+          <br>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          <span id="emailError" class="error"></span>
+  
+        
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+          <span id="senhaError" class="error"></span>
+          <div class="b13">
+            <P><a href="Esqueceu.html" class="esquecisenha">Esqueci minha Senha</a></P>
+
+          <label><input type="checkbox" name="checkbox" value="check" required class="check">Lembre-me</label>
+          </div>
+          
+        
+          <input type="submit" value="Entrar" class="button">
+        </form>
+        <!--Imagens-->
+        <div class="voltar">
+            <a href="#"><img class="icon-forward" alt="" src="img/voltar.png" /></a>
+          
+        </div>
+        
+
+    </section>
+        
+        
+
+        <script src="js/motiro.js"></script>
+
+        <script src="js/script.js"></script>
+
+</body>
+</html>
