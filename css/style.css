@@ -34,7 +34,7 @@ body {
     font-family: 'Gotham Rounded', sans-serif;
     background-color: #f4f4f4;
     font-family: 'Gotham Rounded', sans-serif;
-    background: url(/img/background.png); /* Substitua pelo caminho da sua imagem */
+    background: url(../img/background.png); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Para cobrir todo o corpo */
     background-position: center; /* Centralizar a imagem */
    
@@ -72,6 +72,7 @@ body {
     margin-bottom: 16px;
     box-sizing: border-box;
     border-radius: 12px;
+    background-color: #FFFFB9;
   }
 
   .error {
