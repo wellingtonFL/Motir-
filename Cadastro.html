@@ -19,16 +19,20 @@
     <section>    
       
         <form id="cadastroForm">
-            <h1>Criar seu Cadastro</h1> 
+            <h1>Criar seu Cadastro</h1>
+            <br> 
           <label for="nome">Nome Completo:</label>
           <input type="text" id="nome" name="nome" required>
           <span id="nomeError" class="error"></span>
-        
-          <label>Gênero:</label>
-          <div class="genero-labels">
-            <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
-            <label><input type="radio" name="genero" value="feminino" required> Feminino</label>
-            <label><input type="radio" name="genero" value="feminino" required>Não informar</label>
+
+          
+          <div class="genero">
+              <span>Gênero:</span>
+              <div class="genero-labels">
+                <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+                <label><input type="radio" name="genero" value="feminino" required> Feminino</label>
+                <label><input type="radio" name="genero" value="Notvalue" required>Não informar</label>
+              </div>
           </div>
           </div>
           <span id="generoError" class="error"></span>
