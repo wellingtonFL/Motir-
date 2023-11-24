@@ -40,15 +40,18 @@
           <label for="dataNascimento">Data de Nascimento:</label>
           <input type="date" id="dataNascimento" name="dataNascimento" required>
           <span id="dataNascimentoError" class="error"></span>
-        
-          <label for="cpf">CPF:</label>
-          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
-          <span id="cpfError" class="error"></span>
-        
-          <label for="cnpj">CNPJ:</label>
-          <input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/0000-00">
-          <span id="cnpjError" class="error"></span>
-        
+
+     
+          <div class="genero-cpf" >
+          <label for="cpf"><input type="radio" name="opcao" value="CPF" onclick="mudarPlaceholder('000.000.000-00')" required>CPF</label>
+          <label><input type="radio" name="opcao" value="CNPJ" onclick="mudarPlaceholder('00.000.000/0000-00')">CNPJ</label>
+          </div>
+        <input type="text" id="meuInput" placeholder="000.000.000-00" required>
+        <span id="cpfError" class="error"></span>
+
+
+
+          
           <label for="cep">CEP:</label>
           <input type="text" id="cep" name="cep" placeholder="00000-000" required>
           <span id="cepError" class="error"></span>
@@ -75,6 +78,8 @@
             <a href="#"><img class="icon-forward" alt="" src="img/voltar.png" /></a>
           
         </div>
+
+     
         
 
     </section>
@@ -84,6 +89,19 @@
         <script src="js/motiro.js"></script>
 
         <script src="js/script.js"></script>
+
+
+    <script>
+        function mudarPlaceholder(novoTexto) {
+            // Obtém o elemento de input pelo ID
+            var inputElement = document.getElementById("meuInput");
+
+            // Define o novo texto do placeholder
+            inputElement.placeholder = novoTexto;
+        }
+    </script>
+
+   
 
 </body>
 </html>
